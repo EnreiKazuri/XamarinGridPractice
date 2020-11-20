@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinGridPractice.MainPage" BackgroundColor="GhostWhite">
+
+    <Grid Margin="20, 20, 20, 20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Text="Featured Course" TextColor="DarkGray" FontSize="20"/>
+        <Label Text="Stress will always be around. The trick is finding a few stress-busters you can enjoy!" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" TextColor="DarkGray"/>
+        <BoxView BackgroundColor="White" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Image Source="intecLogo" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <Label Text="Foundations" TextColor="Black" FontSize="20" Grid.Row="3" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+        <Label Text="This guided meditation for beginners course will Introduce you to mindfullness" 
+               TextColor="gray" FontSize="15" Grid.Row="4" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+        <Label Text="10 min" 
+               TextColor="gray" FontSize="8" Grid.Row="5" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
+        <Label Text="On the go" TextColor="DarkGray" FontSize="15" Grid.Row="5"/>
+        <Button Grid.Row="6" Grid.Column="0" BackgroundColor="AliceBlue" Text="After work" TextColor="DarkGray"/>
+        <Button Grid.Row="6" Grid.Column="1" BackgroundColor="SlateBlue" Text="Tough day" TextColor="White"/>
+        <Button Grid.Row="7" Grid.Column="0" BackgroundColor="LightCoral" Text="Good morning" TextColor="white"/>
+        <Button Grid.Row="7" Grid.Column="1" BackgroundColor="Gray" Text="Sleep" TextColor="White"/>
+        <Button Grid.Row="8" Grid.Column="0" BackgroundColor="LightBlue" Text="Quick break" TextColor="White"/>
+        <Button Grid.Row="8" Grid.Column="1" BackgroundColor="Salmon" Text="Big event" TextColor="White"/>
+    </Grid>
+</ContentPage>
