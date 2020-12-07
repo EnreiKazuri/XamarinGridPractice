@@ -1,5 +1,4 @@
 # XamarinGridPractice
+Practicing Xamarin's Grid layout
 
-========
-
-![alt text](https://i.imgur.com/AALxuXO.jpg)
+<img src="https://i.imgur.com/AALxuXO.jpg" width="25%" height="25%">
